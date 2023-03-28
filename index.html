@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+
+<div class="search">
+    <form id="search_form">
+       <div class="form_item">
+           <input type="text" name="post_id">
+           <p class="input_error">not valid</p>
+       </div>
+        <button id="search_btn" type="submit">search</button>
+    </form>
+</div>
+
+<div class="post">
+    <h2 class="section_title">Post</h2>
+    <div class="post_item">
+        <img src="assets/images/postImg.jpg" alt="post image">
+        <div class="post_item_info">
+            <h3 class="post_item_title"></h3>
+            <p class="post_item_text"></p>
+            <a href="#" class="show_comments" data-postid="">show comments</a>
+        </div>
+    </div>
+</div>
+
+<div class="comment">
+    <h2 class="section_title">Comment</h2>
+    <div class="comment_box">
+
+    </div>
+</div>
+
+
+<script src="assets/js/script.js"></script>
+<!--<script src="assets/js/fetch.js"></script>-->
+</body>
+</html>

@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&display=swap');
+body{
+    font-family: 'Oswald', sans-serif;;
+}
+h1,h2,h3,h4,h5,h6,p,span{
+    margin: 0;
+    padding: 0;
+}
+.search{
+    padding: 1rem;
+}
+#search_form{
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid #e3e3e3;
+}
+
+.form_item{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin: 10px;
+}
+
+input[name="post_id"]{
+    border-radius: 12px;
+    font-size: 1rem;
+    padding: 12px;
+    border: 2px solid #000;
+    outline: none;
+}
+.input_error{
+    display: none;
+    font-size: 0.8rem;
+    height: 1rem;
+    color: red;
+}
+.input_error.show{
+    display: block;
+}
+#search_btn{
+    border-radius: 12px;
+    font-size: 1rem;
+    padding: 12px;
+    max-width: 120px;
+    width: 100%;
+    border: 2px solid #000;
+    outline: none;
+    background: #075cab;
+    color: #fff;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+.post{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    border-bottom: 1px solid #e3e3e3;
+    padding: 1rem;
+}
+.section_title{
+    font-size: 1.6rem;
+    font-weight: bold;
+}
+
+.post_item{
+    display: none;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+.post_item.show{
+    display: flex;
+}
+.post_item img{
+    width: 100%;
+    max-width: 75px ;
+}
+.post_item_info{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.comment{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    border-bottom: 1px solid #e3e3e3;
+    padding: 1rem;
+}
+.comment_box{
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+}
+.comment_item{
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    margin: 10px;
+}
+.comment_item img{
+    max-width: 34px;
+    width: 100%;
+    margin-right: 10px;
+}
+.comment_text{
+    font-size: 0.8rem;
+    font-style: italic;
+}
